@@ -9,10 +9,10 @@ import (
 	"strconv"
 	"strings"
 
-	"code.google.com/p/gopacket"
-	"code.google.com/p/gopacket/layers"
-	"code.google.com/p/gopacket/pcap"
 	"github.com/fatih/color"
+	"github.com/google/gopacket"
+	"github.com/google/gopacket/layers"
+	"github.com/google/gopacket/pcap"
 )
 
 // Connection is the handshake of one TLS Connection
